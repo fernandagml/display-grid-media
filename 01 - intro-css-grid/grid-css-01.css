@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
+    gap: 15px;
+
+    /* Alinha os elementos da grid - interno */
+    justify-items: center;
+    align-items: center;
+
+    /* Alinha a grid - externo */
+    justify-content: center;
+    align-content: center;
+}
+
+.gridItem{
+    background-color: brown;
+    /* padding: 20px; */
+    /* margin: 10px; */
+    /* height: 200px; */
+    /* width: 200px; */
+}
+
+/* body{
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(44deg,rgba(248, 254, 61, 0.2) 1%, rgb(255, 19, 19, 0.6) 100%), url("https://images.pexels.com/photos/139975/pexels-photo-139975.jpeg");
+    display: flex;
+}
+
+.sol{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 32%, rgb(241, 235, 33) 83%, rgba(250, 222, 10, 1) 95%, rgba(242, 187, 5, 1) 100%);
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(117, 117, 0, 0.5);
+}
+
+.nuvem-completa{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.nuvem{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 150px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255);
+}
+
+.nuvem1{
+    top: 20px;
+    left: 0px;
+}
+.nuvem2{
+    top: 0px;
+    left: 55px;
+}
+.nuvem3{
+    top: 15px;
+    left: 125px;
+    height: 70px;
+}
+.nuvem4{
+    top: 50px;
+    left: 50px;
+} */
