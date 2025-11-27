@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: aqua;
+            height: 100vh;
+        }
+
+        .container01{
+            width: 400px;
+            height: 500px;
+            background-color: burlywood;
+        }
+
+        @media(max-width:400px){
+            body{
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container01{
+                width: 200px;
+                height: 500px;
+                background-color: white;
+            }
+        }
+        @media(min-width:401px){
+            body{
+                background-color: cornflowerblue;;
+            }
+            .container01{
+                background-color: white;
+            }
+        }
+        @media(min-width:768px){
+            body{
+                background-color: yellow;
+            }
+        }
+        @media(min-width:996px){
+            body{
+                background-color: purple;
+            }
+        }
+        @media(min-width:1200px){
+            body{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container01"></div>
+</body>
+</html>
