@@ -11,7 +11,7 @@
 
 .grid__container{
     display: grid;
-    height: 92vh;
+    min-height: 92vh;
     background-image: var(--container-gradient);
 
     grid-template-columns: repeat(3, 250px);
