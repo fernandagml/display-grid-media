@@ -1,0 +1,17 @@
+.header{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a{
+    padding: 10px;
+}
